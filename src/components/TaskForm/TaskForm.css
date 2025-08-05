@@ -1,0 +1,99 @@
+.task-form {
+    width: 45%;
+    height: 50%;
+    border: 2px solid #ccc;
+    padding: 1rem;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.task-form h1 {
+    text-align: center;
+}
+
+.task-form form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.task-form .task-status {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.task-form .task-footer {
+    position: relative;
+    bottom: -12px;
+    text-align: center;
+}
+
+.task-footer button {
+    width: 25%;
+    height: 10%;
+    border-radius: 16px;
+    margin: 0;
+    transition: all 0.4ms ease-in-out;
+}
+
+.task-footer button:hover {
+    transform: scale(1.03);
+    background-color: #ccc;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 21px;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+    margin-top: 4px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"]:hover {
+  border-color: #0056b3;
+}
+
+
+.task-status label {
+    font-weight: 500;
+
+}

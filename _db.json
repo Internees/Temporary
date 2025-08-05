@@ -1,0 +1,51 @@
+{
+  "lists": [
+    {
+      "id": "1",
+      "name": "Work",
+      "description": "Tasks for work"
+    },
+    {
+      "id": "2",
+      "name": "Home",
+      "description": "Personal stuff"
+    },
+    {
+      "id": "4",
+      "title": "Buy groceries",
+      "description": "Milk, Eggs, Bread",
+      "status": "done",
+      "list_Id": "2"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Reply to emails",
+      "description": "Work-related emails",
+      "status": "pending",
+      "list_Id": "1"
+    },
+    {
+      "id": "2",
+      "title": "Buy groceries",
+      "description": "Milk, Eggs, Bread",
+      "status": "done",
+      "list_Id": "2"
+    },
+    {
+      "id": "3",
+      "title": "Buy groceries",
+      "description": "Milk, Eggs, Bread",
+      "status": "done",
+      "list_Id": "2"
+    },
+    {
+      "id": "4",
+      "title": "Buy groceries",
+      "description": "Milk, Eggs, Bread",
+      "status": "done",
+      "list_Id": "2"
+    }
+  ]
+}
