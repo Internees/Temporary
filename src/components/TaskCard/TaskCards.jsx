@@ -2,6 +2,8 @@ import React from 'react';
 import './TaskCards.css';
 
 function TaskCards({ id, title, desc, status, onTaskSelect, onEdit, onDelete }) {
+  console.log("Rendering card", id, "status:", status);
+
   return (
     <div
       className="task-card"
