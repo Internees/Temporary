@@ -18,8 +18,6 @@ function App() {
         <Route path="/edit/:id" element={<EditTaskPage />} />
       </Routes>
     </Router>
-    // <TaskCards id={1} title={"Help Me Please"} desc={"I am going to Die"} status={false} onTaskSelect={eveHandle} onEdit={eveHandle} onDelete={eveHandle}  />
-  //  <CreateTaskPage />
   );
 }
 

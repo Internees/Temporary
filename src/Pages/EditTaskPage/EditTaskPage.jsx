@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getTaskById, putTask } from '../../services/taskServices';
 import TaskForm from '../../components/TaskForm/TaskForm';
+import './EditTaskPage.css'
 
 function EditTaskPage() {
   const { id } = useParams(); 
@@ -32,8 +33,6 @@ function EditTaskPage() {
 
   return (
     <div className="edit-task-page">
-      <h1>Edit Task</h1>
-      <hr />
       {taskData ? (
         <TaskForm
           onCreate={handleUpdateTask}  
