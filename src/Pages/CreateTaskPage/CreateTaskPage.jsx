@@ -2,7 +2,7 @@ import React from 'react';
 import TaskForm from '../../components/TaskForm/TaskForm';
 import { postTask } from '../../services/taskServices';
 import { useNavigate } from 'react-router-dom';
-
+import './CreateTaskPage.css'
 function CreateTaskPage() {
   const navigate = useNavigate();
 

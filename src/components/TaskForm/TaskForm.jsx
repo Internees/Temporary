@@ -28,7 +28,7 @@ function TaskForm({ onCreate }) {
       <h1>Create Task</h1>
       <hr />
       <form onSubmit={handleSubmit}>
-        <label>Title</label>
+        <label htmlFor='title'>Title</label>
         <input
           type="text"
           value={title}
@@ -36,22 +36,25 @@ function TaskForm({ onCreate }) {
           placeholder='Task Title'
           autoFocus
           required
+          id='title'
         />
 
-        <label>Description</label>
+        <label htmlFor='description'>Description</label>
         <input
           type="text"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           placeholder='Task Description'
+          id='description'
         />
 
         <div className='task-status'>
-          <label>Status</label>
+          <label htmlFor="status">Status</label>
           <input
             type="checkbox"
             checked={status}
             onChange={(e) => setStatus(e.target.checked)}
+            id='status'
           />
         </div>
 
