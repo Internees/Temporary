@@ -1,7 +1,7 @@
 .task-card {
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background: linear-gradient(135deg, #CED4DA, #DEE2E6, #E9ECEF, #F8F9FA);
   border: 1px solid #ddd;
   border-radius: 12px;
   padding: 1rem;
@@ -66,12 +66,13 @@
   border-radius: 15px;
   border: none;
   cursor: pointer;
-  background-color: #007bff;
-  color: white;
+  background : linear-gradient( #CED4DA, #DEE2E6, #E9ECEF, #F8F9FA);
+  color: #343A40;
   font-size: 0.95rem;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .task-buttons button:hover {
-  background-color: #0056b3;
+  background : linear-gradient(#6C757D, #ADB5BD,#CED4DA,#DEE2E6);
+  transform: scale(1.01);
 }
